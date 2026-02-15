@@ -4,11 +4,14 @@ on:
   schedule:
     # Cron roda em UTC. 12:00 UTC = 09:00 Brasil
     - cron: '0 12 * * *'
-  workflow_dispatch: # Permite rodar manualmente clicando num botão (para testar)
+  workflow_dispatch: # Permite rodar manualmente
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Permissão necessária para fazer commit
+    
     steps:
       - name: Baixar código
         uses: actions/checkout@v3
@@ -24,6 +27,12 @@ jobs:
       - name: Rodar Script
         env:
           WATCHMODE_API_KEY: ${{ secrets.WATCHMODE_API_KEY }}
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py
+
+      - name: Commit e Push do JSON
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add data/releases.json
+          # Só faz commit se houver mudanças
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily releases [skip ci]" && git push)

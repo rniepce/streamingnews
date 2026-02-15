@@ -1,11 +1,10 @@
 import requests
 import os
-from datetime import datetime, timedelta
+import json
+from datetime import datetime
 
 # --- CONFIGURAÇÕES ---
 WATCHMODE_API_KEY = os.environ["WATCHMODE_API_KEY"]
-TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
 # IDs dos serviços no Watchmode (Região BR)
 SERVICES = {
@@ -43,60 +42,60 @@ def get_details(title_id):
         "apiKey": WATCHMODE_API_KEY,
         "regions": "BR"
     }
-    response = requests.get(url, params=params)
-    return response.json()
-
-def send_telegram_message(message):
-    """Envia mensagem via Telegram Bot."""
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": message,
-        "parse_mode": "Markdown"
-    }
-    requests.post(url, data=payload)
+    try:
+        response = requests.get(url, params=params)
+        return response.json()
+    except Exception:
+        return []
 
 def main():
     print("--- Buscando lançamentos ---")
     releases = get_daily_releases()
     
+    output_data = {
+        "date": datetime.now().strftime('%Y-%m-%d'),
+        "items": []
+    }
+
     if not releases:
         print("Nenhum lançamento encontrado hoje.")
-        return
-
-    message_buffer = f"🎬 **Novidades do Dia ({datetime.now().strftime('%d/%m')})**\n\n"
-    has_news = False
-
-    for item in releases:
-        title = item.get("title", "Desconhecido")
-        title_id = item.get("id")
-        imdb_id = item.get("imdb_id", "")
-        
-        # Consulta onde esse título está disponível
-        sources = get_details(title_id)
-        
-        # Filtra apenas os serviços que nos interessam
-        available_in = []
-        for source in sources:
-            source_id = source.get("source_id")
-            if source_id in SERVICES:
-                available_in.append(SERVICES[source_id])
-        
-        # Se estiver em um dos nossos streamings, adiciona à lista
-        if available_in:
-            has_news = True
-            services_str = ", ".join(set(available_in))
-            link = f"https://www.imdb.com/title/{imdb_id}" if imdb_id else "#"
-            
-            message_buffer += f"📺 *{title}*\n"
-            message_buffer += f"└ 📱 {services_str}\n"
-            message_buffer += f"└ 🔗 [Ficha no IMDB]({link})\n\n"
-
-    if has_news:
-        send_telegram_message(message_buffer)
-        print("Notificação enviada com sucesso!")
     else:
-        print("Lançamentos encontrados, mas fora dos streamings monitorados.")
+        for item in releases:
+            title = item.get("title", "Desconhecido")
+            title_id = item.get("id")
+            imdb_id = item.get("imdb_id", "")
+            
+            # Consulta onde esse título está disponível
+            sources = get_details(title_id)
+            
+            # Filtra apenas os serviços que nos interessam
+            available_in = []
+            for source in sources:
+                source_id = source.get("source_id")
+                if source_id in SERVICES:
+                    available_in.append(SERVICES[source_id])
+            
+            # Se estiver em um dos nossos streamings, adiciona à lista
+            if available_in:
+                # Remove duplicatas e formata
+                services_list = list(set(available_in))
+                services_str = ", ".join(services_list)
+                imdb_link = f"https://www.imdb.com/title/{imdb_id}" if imdb_id else ""
+                
+                print(f"Encontrado: {title} em {services_str}")
+                
+                output_data["items"].append({
+                    "title": title,
+                    "services": services_str,
+                    "imdb_link": imdb_link
+                })
+    
+    # Salva no arquivo JSON
+    os.makedirs("data", exist_ok=True)
+    with open("data/releases.json", "w", encoding="utf-8") as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"Salvo data/releases.json com {len(output_data['items'])} itens.")
 
 if __name__ == "__main__":
     main()
