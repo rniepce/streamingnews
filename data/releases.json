@@ -6,28 +6,32 @@
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt15017118",
       "critic_score": 91,
-      "user_rating": 7.5
+      "user_rating": 7.5,
+      "poster_url": "https://cdn.watchmode.com/posters/03183305_poster_w342.jpg"
     },
     {
       "title": "Family Guy",
       "services": "Disney+",
       "imdb_link": "https://www.imdb.com/title/tt0182576",
       "critic_score": 61,
-      "user_rating": 7.9
+      "user_rating": 7.9,
+      "poster_url": "https://cdn.watchmode.com/posters/0340557_poster_w342.jpg"
     },
     {
       "title": "The Night Agent",
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt13918776",
       "critic_score": 74,
-      "user_rating": 7.2
+      "user_rating": 7.2,
+      "poster_url": "https://cdn.watchmode.com/posters/03181750_poster_w342.jpg"
     },
     {
       "title": "The Last Thing He Told Me",
       "services": "Apple TV+",
       "imdb_link": "https://www.imdb.com/title/tt13745850",
       "critic_score": 45,
-      "user_rating": 6.4
+      "user_rating": 6.4,
+      "poster_url": "https://cdn.watchmode.com/posters/03185070_poster_w342.jpg"
     }
   ]
 }
