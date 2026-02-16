@@ -10,12 +10,14 @@
 		A1000001 /* StreamingNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* StreamingNewsApp.swift */; };
 		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
 		A1000003 /* ReleaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* ReleaseModel.swift */; };
+		A1000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000004 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2000001 /* StreamingNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingNewsApp.swift; sourceTree = "<group>"; };
 		A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2000003 /* ReleaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseModel.swift; sourceTree = "<group>"; };
+		A2000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2000009 /* StreamingNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamingNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,7 @@
 				A2000001 /* StreamingNewsApp.swift */,
 				A2000002 /* ContentView.swift */,
 				A2000003 /* ReleaseModel.swift */,
+				A2000004 /* Assets.xcassets */,
 			);
 			path = StreamingNews;
 			sourceTree = "<group>";
@@ -65,6 +68,7 @@
 			buildPhases = (
 				A6000001 /* Sources */,
 				A3000001 /* Frameworks */,
+				A6000002 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,6 +119,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		A9000001 /* Debug */ = {
