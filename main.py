@@ -62,7 +62,7 @@ def get_details(title_id):
         return []
 
 def get_title_details(title_id):
-    """Pega detalhes do título incluindo critic_score e user_rating."""
+    """Pega detalhes do título incluindo critic_score, user_rating e poster."""
     url = f"https://api.watchmode.com/v1/title/{title_id}/details/"
     params = {
         "apiKey": WATCHMODE_API_KEY
@@ -72,10 +72,11 @@ def get_title_details(title_id):
         data = response.json()
         return {
             "critic_score": data.get("critic_score"),
-            "user_rating": data.get("user_rating")
+            "user_rating": data.get("user_rating"),
+            "poster": data.get("poster", "")
         }
     except Exception:
-        return {"critic_score": None, "user_rating": None}
+        return {"critic_score": None, "user_rating": None, "poster": ""}
 
 def main():
     print("--- Buscando lançamentos ---")
@@ -115,6 +116,7 @@ def main():
                 ratings = get_title_details(title_id)
                 critic_score = ratings.get("critic_score")
                 user_rating = ratings.get("user_rating")
+                poster = ratings.get("poster", "")
                 
                 score_info = ""
                 if critic_score is not None:
@@ -129,7 +131,8 @@ def main():
                     "services": services_str,
                     "imdb_link": imdb_link,
                     "critic_score": critic_score,
-                    "user_rating": user_rating
+                    "user_rating": user_rating,
+                    "poster_url": poster
                 })
     
     # Salva no arquivo JSON

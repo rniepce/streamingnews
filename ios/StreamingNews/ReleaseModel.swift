@@ -6,7 +6,8 @@ struct ReleaseItem: Codable, Identifiable {
     let services: String
     let imdb_link: String
     let critic_score: Int?
-    let user_rating: Int?
+    let user_rating: Double?
+    let poster_url: String?
 }
 
 struct DailyReleases: Codable {
