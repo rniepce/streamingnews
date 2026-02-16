@@ -4,7 +4,16 @@ import json
 from datetime import datetime
 
 # --- CONFIGURAÇÕES ---
-WATCHMODE_API_KEY = os.environ["WATCHMODE_API_KEY"]
+WATCHMODE_API_KEY = os.environ.get("WATCHMODE_API_KEY", "")
+
+if not WATCHMODE_API_KEY:
+    print("ERRO: WATCHMODE_API_KEY não está configurada!")
+    print("Configure o secret no GitHub: Settings > Secrets and variables > Actions")
+    # Gera JSON vazio para não quebrar o app
+    os.makedirs("data", exist_ok=True)
+    with open("data/releases.json", "w", encoding="utf-8") as f:
+        json.dump({"date": datetime.now().strftime('%Y-%m-%d'), "items": []}, f, ensure_ascii=False, indent=2)
+    exit(0)
 
 # IDs dos serviços no Watchmode (Região BR)
 SERVICES = {
@@ -29,6 +38,10 @@ def get_daily_releases():
     
     try:
         response = requests.get(url, params=params)
+        print(f"API releases status: {response.status_code}")
+        if response.status_code != 200:
+            print(f"Resposta da API: {response.text[:500]}")
+            return []
         data = response.json()
         return data.get("releases", [])
     except Exception as e:
@@ -47,6 +60,22 @@ def get_details(title_id):
         return response.json()
     except Exception:
         return []
+
+def get_title_details(title_id):
+    """Pega detalhes do título incluindo critic_score e user_rating."""
+    url = f"https://api.watchmode.com/v1/title/{title_id}/details/"
+    params = {
+        "apiKey": WATCHMODE_API_KEY
+    }
+    try:
+        response = requests.get(url, params=params)
+        data = response.json()
+        return {
+            "critic_score": data.get("critic_score"),
+            "user_rating": data.get("user_rating")
+        }
+    except Exception:
+        return {"critic_score": None, "user_rating": None}
 
 def main():
     print("--- Buscando lançamentos ---")
@@ -82,12 +111,25 @@ def main():
                 services_str = ", ".join(services_list)
                 imdb_link = f"https://www.imdb.com/title/{imdb_id}" if imdb_id else ""
                 
-                print(f"Encontrado: {title} em {services_str}")
+                # Busca notas de críticos e público
+                ratings = get_title_details(title_id)
+                critic_score = ratings.get("critic_score")
+                user_rating = ratings.get("user_rating")
+                
+                score_info = ""
+                if critic_score is not None:
+                    score_info += f" | 🍅 {critic_score}"
+                if user_rating is not None:
+                    score_info += f" | ⭐ {user_rating}"
+                
+                print(f"Encontrado: {title} em {services_str}{score_info}")
                 
                 output_data["items"].append({
                     "title": title,
                     "services": services_str,
-                    "imdb_link": imdb_link
+                    "imdb_link": imdb_link,
+                    "critic_score": critic_score,
+                    "user_rating": user_rating
                 })
     
     # Salva no arquivo JSON

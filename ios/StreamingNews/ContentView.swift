@@ -4,48 +4,30 @@ struct ContentView: View {
     @StateObject private var viewModel = ReleaseModel()
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 if viewModel.isLoading {
-                    ProgressView("Carregando novidades...")
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .listRowSeparator(.hidden)
+                    HStack {
+                        Spacer()
+                        ProgressView("Carregando novidades...")
+                        Spacer()
+                    }
+                    .listRowBackground(Color.clear)
                 } else if viewModel.releases.isEmpty {
-                    Text("Nenhuma novidade encontrada para hoje.")
-                        .foregroundColor(.gray)
-                        .frame(maxWidth: .infinity, alignment: .center)
-                        .listRowSeparator(.hidden)
+                    HStack {
+                        Spacer()
+                        Text("Nenhuma novidade encontrada para hoje.")
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                    }
+                    .listRowBackground(Color.clear)
                 } else {
                     ForEach(viewModel.releases) { item in
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text(item.title)
-                                .font(.headline)
-                                .foregroundColor(.primary)
-                            
-                            HStack {
-                                Image(systemName: "tv")
-                                    .foregroundColor(.blue)
-                                Text(item.services)
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
-                            }
-                            
-                            if let url = URL(string: item.imdb_link), !item.imdb_link.isEmpty {
-                                Link(destination: url) {
-                                    HStack {
-                                        Image(systemName: "link")
-                                        Text("Ficha no IMDB")
-                                    }
-                                    .font(.caption)
-                                    .foregroundColor(.blue)
-                                }
-                                .padding(.top, 2)
-                            }
-                        }
-                        .padding(.vertical, 4)
+                        ReleaseRow(item: item)
                     }
                 }
             }
+            .listStyle(.insetGrouped)
             .navigationTitle("Lançamentos \(viewModel.date)")
             .refreshable {
                 viewModel.fetchReleases()
@@ -57,8 +39,75 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+// MARK: - Release Row
+
+struct ReleaseRow: View {
+    let item: ReleaseItem
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            // Título
+            Text(item.title)
+                .font(.headline)
+            
+            // Serviços
+            HStack {
+                Image(systemName: "tv")
+                    .foregroundStyle(.tint)
+                Text(item.services)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+            
+            // Notas de críticos e público
+            if item.critic_score != nil || item.user_rating != nil {
+                HStack(spacing: 16) {
+                    if let critic = item.critic_score {
+                        HStack(spacing: 4) {
+                            Text("🍅")
+                            Text("\(critic)")
+                                .font(.subheadline.bold())
+                                .foregroundStyle(scoreColor(critic))
+                        }
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .glassEffect(.regular.interactive, in: .capsule)
+                    }
+                    if let user = item.user_rating {
+                        HStack(spacing: 4) {
+                            Text("⭐")
+                            Text("\(user)")
+                                .font(.subheadline.bold())
+                                .foregroundStyle(scoreColor(user))
+                        }
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .glassEffect(.regular.interactive, in: .capsule)
+                    }
+                }
+            }
+            
+            // Link IMDB
+            if let url = URL(string: item.imdb_link), !item.imdb_link.isEmpty {
+                Link(destination: url) {
+                    Label("Ficha no IMDB", systemImage: "link")
+                        .font(.subheadline)
+                }
+                .buttonStyle(.glass)
+            }
+        }
+        .padding(.vertical, 4)
     }
+    
+    private func scoreColor(_ score: Int) -> Color {
+        if score >= 60 { return .green }
+        if score >= 40 { return .yellow }
+        return .red
+    }
+}
+
+// MARK: - Preview
+
+#Preview {
+    ContentView()
 }
