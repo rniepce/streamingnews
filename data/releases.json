@@ -3,6 +3,7 @@
   "items": [
     {
       "title": "Dark Winds",
+      "type": "tv_series",
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt15017118",
       "critic_score": 91,
@@ -11,6 +12,7 @@
     },
     {
       "title": "Family Guy",
+      "type": "tv_series",
       "services": "Disney+",
       "imdb_link": "https://www.imdb.com/title/tt0182576",
       "critic_score": 61,
@@ -19,6 +21,7 @@
     },
     {
       "title": "The Night Agent",
+      "type": "tv_series",
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt13918776",
       "critic_score": 74,
@@ -27,6 +30,7 @@
     },
     {
       "title": "The Last Thing He Told Me",
+      "type": "tv_series",
       "services": "Apple TV+",
       "imdb_link": "https://www.imdb.com/title/tt13745850",
       "critic_score": 45,
