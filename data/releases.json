@@ -1,27 +1,16 @@
 {
-  "date": "2026-02-16",
+  "date": "2026-02-17",
   "items": [
     {
-      "title": "Dark Winds",
-      "type": "tv_series",
+      "title": "Reality Check: Inside America's Next Top Model",
       "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt15017118",
-      "critic_score": 91,
-      "user_rating": 7.5,
-      "poster_url": "https://cdn.watchmode.com/posters/03183305_poster_w342.jpg"
-    },
-    {
-      "title": "Family Guy",
-      "type": "tv_series",
-      "services": "Disney+",
-      "imdb_link": "https://www.imdb.com/title/tt0182576",
-      "critic_score": 61,
-      "user_rating": 7.9,
-      "poster_url": "https://cdn.watchmode.com/posters/0340557_poster_w342.jpg"
+      "imdb_link": "https://www.imdb.com/title/tt39398591",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://cdn.watchmode.com/posters/03291752_poster_w342.jpg"
     },
     {
       "title": "The Night Agent",
-      "type": "tv_series",
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt13918776",
       "critic_score": 74,
@@ -30,7 +19,6 @@
     },
     {
       "title": "The Last Thing He Told Me",
-      "type": "tv_series",
       "services": "Apple TV+",
       "imdb_link": "https://www.imdb.com/title/tt13745850",
       "critic_score": 45,
