@@ -1,16 +1,9 @@
 {
-  "date": "2026-02-17",
+  "date": "2026-02-18",
   "items": [
     {
-      "title": "Reality Check: Inside America's Next Top Model",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt39398591",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://cdn.watchmode.com/posters/03291752_poster_w342.jpg"
-    },
-    {
       "title": "The Night Agent",
+      "type": "tv_series",
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt13918776",
       "critic_score": 74,
@@ -19,11 +12,21 @@
     },
     {
       "title": "The Last Thing He Told Me",
+      "type": "tv_series",
       "services": "Apple TV+",
       "imdb_link": "https://www.imdb.com/title/tt13745850",
       "critic_score": 45,
       "user_rating": 6.4,
       "poster_url": "https://cdn.watchmode.com/posters/03185070_poster_w342.jpg"
+    },
+    {
+      "title": "American Dad!",
+      "type": "tv_series",
+      "services": "Disney+",
+      "imdb_link": "https://www.imdb.com/title/tt0397306",
+      "critic_score": 67,
+      "user_rating": 7.6,
+      "poster_url": "https://cdn.watchmode.com/posters/036772_poster_w342.jpg"
     }
   ]
 }
