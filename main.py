@@ -94,6 +94,7 @@ def main():
             title = item.get("title", "Desconhecido")
             title_id = item.get("id")
             imdb_id = item.get("imdb_id", "")
+            release_type = item.get("type", "unknown")
             
             # Consulta onde esse título está disponível
             sources = get_details(title_id)
@@ -128,6 +129,7 @@ def main():
                 
                 output_data["items"].append({
                     "title": title,
+                    "type": release_type,
                     "services": services_str,
                     "imdb_link": imdb_link,
                     "critic_score": critic_score,

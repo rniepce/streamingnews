@@ -40,8 +40,43 @@ struct ContentView: View {
                     }
                     .listRowBackground(Color.clear)
                 } else {
-                    ForEach(viewModel.releases) { item in
-                        ReleaseRow(item: item)
+                    if !viewModel.movies.isEmpty {
+                        Section {
+                            ForEach(viewModel.movies) { item in
+                                ReleaseRow(item: item)
+                            }
+                        } header: {
+                            Label("Filmes", systemImage: "film")
+                                .font(.headline)
+                                .foregroundStyle(.primary)
+                                .textCase(nil)
+                        }
+                    }
+                    
+                    if !viewModel.series.isEmpty {
+                        Section {
+                            ForEach(viewModel.series) { item in
+                                ReleaseRow(item: item)
+                            }
+                        } header: {
+                            Label("Séries", systemImage: "tv")
+                                .font(.headline)
+                                .foregroundStyle(.primary)
+                                .textCase(nil)
+                        }
+                    }
+                    
+                    if !viewModel.other.isEmpty {
+                        Section {
+                            ForEach(viewModel.other) { item in
+                                ReleaseRow(item: item)
+                            }
+                        } header: {
+                            Label("Outros", systemImage: "sparkles")
+                                .font(.headline)
+                                .foregroundStyle(.primary)
+                                .textCase(nil)
+                        }
                     }
                 }
             }
@@ -74,6 +109,7 @@ struct ContentView: View {
 
 struct ReleaseRow: View {
     let item: ReleaseItem
+    @ObservedObject var wishlist = WishlistManager.shared
     
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -98,37 +134,65 @@ struct ReleaseRow: View {
             
             VStack(alignment: .leading, spacing: 10) {
                 // Título
-                Text(item.title)
-                    .font(.headline)
-            
-            // Serviços
-            HStack(spacing: 6) {
-                ForEach(item.services.components(separatedBy: ", "), id: \.self) { service in
-                    serviceBadge(for: service)
-                }
-            }
-            
-            // Notas de críticos e público
-            if item.critic_score != nil || item.user_rating != nil {
-                HStack(spacing: 16) {
-                    if let critic = item.critic_score {
-                        scoreBadge(emoji: "🍅", value: "\(critic)", color: scoreColor(critic))
-                    }
-                    if let user = item.user_rating {
-                        scoreBadge(emoji: "⭐", value: String(format: "%.1f", user), color: scoreColor(user))
+                HStack(alignment: .firstTextBaseline, spacing: 8) {
+                    Text(item.title)
+                        .font(.headline)
+                    
+                    if !item.contentType.label.isEmpty {
+                        Text(item.contentType.label)
+                            .font(.caption2)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 6)
+                            .padding(.vertical, 2)
+                            .background(item.contentType.isMovie ? Color.indigo : Color.teal, in: Capsule())
                     }
                 }
+                
+                // Serviços
+                HStack(spacing: 6) {
+                    ForEach(item.services.components(separatedBy: ", "), id: \.self) { service in
+                        serviceBadge(for: service)
+                    }
+                }
+                
+                // Notas de críticos e público
+                if item.critic_score != nil || item.user_rating != nil {
+                    HStack(spacing: 16) {
+                        if let critic = item.critic_score {
+                            scoreBadge(emoji: "🍅", value: "\(critic)", color: scoreColor(critic))
+                        }
+                        if let user = item.user_rating {
+                            scoreBadge(emoji: "⭐", value: String(format: "%.1f", user), color: scoreColor(user))
+                        }
+                    }
+                }
+                
+                // Link IMDB
+                if let url = URL(string: item.imdb_link), !item.imdb_link.isEmpty {
+                    Link(destination: url) {
+                        Label("Ficha no IMDB", systemImage: "link")
+                            .font(.subheadline)
+                    }
+                    .modifier(GlassButtonModifier())
+                }
             }
             
-            // Link IMDB
-            if let url = URL(string: item.imdb_link), !item.imdb_link.isEmpty {
-                Link(destination: url) {
-                    Label("Ficha no IMDB", systemImage: "link")
-                        .font(.subheadline)
+            Spacer()
+            
+            // Botão Wishlist
+            Button {
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
+                    wishlist.toggle(item)
                 }
-                .modifier(GlassButtonModifier())
+            } label: {
+                Image(systemName: wishlist.isInWishlist(item) ? "heart.fill" : "heart")
+                    .font(.title3)
+                    .foregroundStyle(wishlist.isInWishlist(item) ? .red : .secondary)
+                    .symbolEffect(.bounce, value: wishlist.isInWishlist(item))
             }
-            }
+            .buttonStyle(.plain)
+            .padding(.top, 4)
         }
         .padding(.vertical, 4)
     }

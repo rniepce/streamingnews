@@ -4,7 +4,18 @@ import SwiftUI
 struct StreamingNewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("Novidades", systemImage: "sparkles.tv")
+                    }
+                
+                WishlistView()
+                    .tabItem {
+                        Label("Wishlist", systemImage: "heart.fill")
+                    }
+            }
+            .tint(.red)
         }
     }
 }
