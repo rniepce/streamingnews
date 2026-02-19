@@ -1,6 +1,24 @@
 {
-  "date": "2026-02-18",
+  "date": "2026-02-19",
   "items": [
+    {
+      "title": "56 Days",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt30412869",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://cdn.watchmode.com/posters/03213156_poster_w342.jpg"
+    },
+    {
+      "title": "Being Gordon Ramsay",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt33241079",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://cdn.watchmode.com/posters/03234024_poster_w342.jpg"
+    },
     {
       "title": "The Night Agent",
       "type": "tv_series",
@@ -27,6 +45,15 @@
       "critic_score": 67,
       "user_rating": 7.6,
       "poster_url": "https://cdn.watchmode.com/posters/036772_poster_w342.jpg"
+    },
+    {
+      "title": "The Neighborhood",
+      "type": "tv_series",
+      "services": "Mubi",
+      "imdb_link": "https://www.imdb.com/title/tt7942794",
+      "critic_score": 61,
+      "user_rating": 7,
+      "poster_url": "https://cdn.watchmode.com/posters/03126480_poster_w342.jpg"
     }
   ]
 }
