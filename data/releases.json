@@ -1,24 +1,6 @@
 {
-  "date": "2026-02-19",
+  "date": "2026-02-20",
   "items": [
-    {
-      "title": "56 Days",
-      "type": "tv_series",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt30412869",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://cdn.watchmode.com/posters/03213156_poster_w342.jpg"
-    },
-    {
-      "title": "Being Gordon Ramsay",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt33241079",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://cdn.watchmode.com/posters/03234024_poster_w342.jpg"
-    },
     {
       "title": "The Night Agent",
       "type": "tv_series",
@@ -27,6 +9,15 @@
       "critic_score": 74,
       "user_rating": 7.2,
       "poster_url": "https://cdn.watchmode.com/posters/03181750_poster_w342.jpg"
+    },
+    {
+      "title": "The Swedish Connection",
+      "type": "movie",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt28793125",
+      "critic_score": null,
+      "user_rating": 7.9,
+      "poster_url": "https://cdn.watchmode.com/posters/01802625_poster_w342.jpg"
     },
     {
       "title": "The Last Thing He Told Me",
@@ -54,6 +45,24 @@
       "critic_score": 61,
       "user_rating": 7,
       "poster_url": "https://cdn.watchmode.com/posters/03126480_poster_w342.jpg"
+    },
+    {
+      "title": "FBI",
+      "type": "tv_series",
+      "services": "Mubi",
+      "imdb_link": "https://www.imdb.com/title/tt7491982",
+      "critic_score": 60,
+      "user_rating": 7.2,
+      "poster_url": "https://cdn.watchmode.com/posters/0339901_poster_w342.jpg"
+    },
+    {
+      "title": "Paradise",
+      "type": "tv_series",
+      "services": "Disney+",
+      "imdb_link": "https://www.imdb.com/title/tt27444205",
+      "critic_score": 78,
+      "user_rating": 7.9,
+      "poster_url": "https://cdn.watchmode.com/posters/03217677_poster_w342.jpg"
     }
   ]
 }
