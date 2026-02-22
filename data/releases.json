@@ -1,33 +1,6 @@
 {
-  "date": "2026-02-21",
+  "date": "2026-02-22",
   "items": [
-    {
-      "title": "The Last Thing He Told Me",
-      "type": "tv_series",
-      "services": "Apple TV+",
-      "imdb_link": "https://www.imdb.com/title/tt13745850",
-      "critic_score": 45,
-      "user_rating": 6.4,
-      "poster_url": "https://cdn.watchmode.com/posters/03185070_poster_w342.jpg"
-    },
-    {
-      "title": "Strip Law",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt37937030",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://cdn.watchmode.com/posters/03277025_poster_w342.jpg"
-    },
-    {
-      "title": "The Orphans",
-      "type": "movie",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt35330717",
-      "critic_score": null,
-      "user_rating": 5.6,
-      "poster_url": "https://cdn.watchmode.com/posters/01791198_poster_w342.jpg"
-    },
     {
       "title": "American Dad!",
       "type": "tv_series",
