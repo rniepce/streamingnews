@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-22",
+  "date": "2026-02-23",
   "items": [
     {
       "title": "American Dad!",
@@ -8,7 +8,7 @@
       "imdb_link": "https://www.imdb.com/title/tt0397306",
       "critic_score": 67,
       "user_rating": 7.6,
-      "poster_url": "https://cdn.watchmode.com/posters/036772_poster_w342.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg"
     },
     {
       "title": "The Neighborhood",
@@ -17,7 +17,7 @@
       "imdb_link": "https://www.imdb.com/title/tt7942794",
       "critic_score": 61,
       "user_rating": 7,
-      "poster_url": "https://cdn.watchmode.com/posters/03126480_poster_w342.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/uItUViUsFAY7wzufTS2zWNbuuAm.jpg"
     },
     {
       "title": "FBI",
@@ -26,7 +26,7 @@
       "imdb_link": "https://www.imdb.com/title/tt7491982",
       "critic_score": 60,
       "user_rating": 7.2,
-      "poster_url": "https://cdn.watchmode.com/posters/0339901_poster_w342.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg"
     },
     {
       "title": "Paradise",
@@ -35,7 +35,16 @@
       "imdb_link": "https://www.imdb.com/title/tt27444205",
       "critic_score": 78,
       "user_rating": 7.9,
-      "poster_url": "https://cdn.watchmode.com/posters/03217677_poster_w342.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/sJUti0JDtE1IYl7RVJARAGyKHqz.jpg"
+    },
+    {
+      "title": "Bridgerton",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt8740790",
+      "critic_score": 77,
+      "user_rating": 7.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/uXTg565ahu9RwonCX1V2Hex1NU6.jpg"
     }
   ]
 }
