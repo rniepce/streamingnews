@@ -1,15 +1,6 @@
 {
-  "date": "2026-02-23",
+  "date": "2026-02-24",
   "items": [
-    {
-      "title": "American Dad!",
-      "type": "tv_series",
-      "services": "Disney+",
-      "imdb_link": "https://www.imdb.com/title/tt0397306",
-      "critic_score": 67,
-      "user_rating": 7.6,
-      "poster_url": "https://image.tmdb.org/t/p/w342/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg"
-    },
     {
       "title": "The Neighborhood",
       "type": "tv_series",
@@ -36,6 +27,15 @@
       "critic_score": 78,
       "user_rating": 7.9,
       "poster_url": "https://image.tmdb.org/t/p/w342/sJUti0JDtE1IYl7RVJARAGyKHqz.jpg"
+    },
+    {
+      "title": "The CEO Club",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt36939501",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/aQNWZd59oyMkYGM865jPokqbKIJ.jpg"
     },
     {
       "title": "Bridgerton",
