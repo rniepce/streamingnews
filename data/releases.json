@@ -1,41 +1,23 @@
 {
-  "date": "2026-02-24",
+  "date": "2026-02-25",
   "items": [
     {
-      "title": "The Neighborhood",
-      "type": "tv_series",
-      "services": "Mubi",
-      "imdb_link": "https://www.imdb.com/title/tt7942794",
-      "critic_score": 61,
-      "user_rating": 7,
-      "poster_url": "https://image.tmdb.org/t/p/w342/uItUViUsFAY7wzufTS2zWNbuuAm.jpg"
-    },
-    {
-      "title": "FBI",
-      "type": "tv_series",
-      "services": "Mubi",
-      "imdb_link": "https://www.imdb.com/title/tt7491982",
-      "critic_score": 60,
-      "user_rating": 7.2,
-      "poster_url": "https://image.tmdb.org/t/p/w342/zfKS4WL0OZ9udpNoSYZw91VB3aH.jpg"
-    },
-    {
-      "title": "Paradise",
-      "type": "tv_series",
-      "services": "Disney+",
-      "imdb_link": "https://www.imdb.com/title/tt27444205",
-      "critic_score": 78,
-      "user_rating": 7.9,
-      "poster_url": "https://image.tmdb.org/t/p/w342/sJUti0JDtE1IYl7RVJARAGyKHqz.jpg"
-    },
-    {
-      "title": "The CEO Club",
-      "type": "tv_series",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt36939501",
+      "title": "Taylor Tomlinson: Prodigal Daughter",
+      "type": "tv_special",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt39367471",
       "critic_score": null,
       "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/aQNWZd59oyMkYGM865jPokqbKIJ.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/5n85A8bspgGBhIZ2HnNfbbr6GRe.jpg"
+    },
+    {
+      "title": "Pombo",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt31724597",
+      "critic_score": null,
+      "user_rating": 4.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/xwWWjmzvaNKhMmqWJIV6d4yLF8C.jpg"
     },
     {
       "title": "Bridgerton",
@@ -43,7 +25,7 @@
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt8740790",
       "critic_score": 77,
-      "user_rating": 7.6,
+      "user_rating": 7.7,
       "poster_url": "https://image.tmdb.org/t/p/w342/uXTg565ahu9RwonCX1V2Hex1NU6.jpg"
     }
   ]
