@@ -1,33 +1,6 @@
 {
-  "date": "2026-02-27",
+  "date": "2026-02-28",
   "items": [
-    {
-      "title": "Bridgerton",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt8740790",
-      "critic_score": 77,
-      "user_rating": 7.6,
-      "poster_url": "https://image.tmdb.org/t/p/w342/uXTg565ahu9RwonCX1V2Hex1NU6.jpg"
-    },
-    {
-      "title": "Crap Happens",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt34458461",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/i3fkDSAZYJoHkU4MgX3RAIazs8a.jpg"
-    },
-    {
-      "title": "Baki-Dou: The Invincible Samurai",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt38201910",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/frtzbwANetYd0M4zdrZ5gx0E89q.jpg"
-    },
     {
       "title": "Fire Country",
       "type": "tv_series",
@@ -51,7 +24,7 @@
       "type": "tv_series",
       "services": "Apple TV+",
       "imdb_link": "https://www.imdb.com/title/tt17220216",
-      "critic_score": 76,
+      "critic_score": 75,
       "user_rating": 7.2,
       "poster_url": "https://image.tmdb.org/t/p/w342/nbuWvW6AJy4Kd6kgfEWyU8rVWqU.jpg"
     },
@@ -60,9 +33,36 @@
       "type": "tv_series",
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt31173685",
-      "critic_score": null,
+      "critic_score": 65,
       "user_rating": 6.6,
       "poster_url": "https://image.tmdb.org/t/p/w342/4aRvU4bKWWH3sAhC3NweoNFte7Q.jpg"
+    },
+    {
+      "title": "Tracker",
+      "type": "tv_series",
+      "services": "Disney+",
+      "imdb_link": "https://www.imdb.com/title/tt13875494",
+      "critic_score": 77,
+      "user_rating": 7.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/otula4h1ITZ0eV84eg7Lb8u614C.jpg"
+    },
+    {
+      "title": "Gabby's Dollhouse",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt9165438",
+      "critic_score": null,
+      "user_rating": 6.9,
+      "poster_url": "https://image.tmdb.org/t/p/w342/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg"
+    },
+    {
+      "title": "Siren's Kiss",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt39303992",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/zkc8UxGDJr6IWONZNksDecM4Xng.jpg"
     }
   ]
 }
