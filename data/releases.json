@@ -1,42 +1,6 @@
 {
-  "date": "2026-02-28",
+  "date": "2026-03-01",
   "items": [
-    {
-      "title": "Fire Country",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt16098700",
-      "critic_score": 50,
-      "user_rating": 6.9,
-      "poster_url": "https://image.tmdb.org/t/p/w342/6XnA02VRG4dhBpTZWGZuXQdYGDW.jpg"
-    },
-    {
-      "title": "Formula 1: Drive to Survive",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt8289930",
-      "critic_score": 62,
-      "user_rating": 8.3,
-      "poster_url": "https://image.tmdb.org/t/p/w342/bTvsFzYK4ZdbcAIPSEJ3i8uLHSh.jpg"
-    },
-    {
-      "title": "Monarch: Legacy of Monsters",
-      "type": "tv_series",
-      "services": "Apple TV+",
-      "imdb_link": "https://www.imdb.com/title/tt17220216",
-      "critic_score": 75,
-      "user_rating": 7.2,
-      "poster_url": "https://image.tmdb.org/t/p/w342/nbuWvW6AJy4Kd6kgfEWyU8rVWqU.jpg"
-    },
-    {
-      "title": "Agents of Mystery",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt31173685",
-      "critic_score": 65,
-      "user_rating": 6.6,
-      "poster_url": "https://image.tmdb.org/t/p/w342/4aRvU4bKWWH3sAhC3NweoNFte7Q.jpg"
-    },
     {
       "title": "Tracker",
       "type": "tv_series",
