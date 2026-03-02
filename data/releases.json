@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-01",
+  "date": "2026-03-02",
   "items": [
     {
       "title": "Tracker",
@@ -16,7 +16,7 @@
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt9165438",
       "critic_score": null,
-      "user_rating": 6.9,
+      "user_rating": 7,
       "poster_url": "https://image.tmdb.org/t/p/w342/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg"
     },
     {
