@@ -1,19 +1,46 @@
 {
-  "date": "2026-03-04",
+  "date": "2026-03-05",
   "items": [
     {
-      "title": "Bruce Bruce: I Ain't Playin'",
-      "type": "tv_special",
+      "title": "Young Sherlock",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt8599532",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/e3rggcNZeCvtJf4dNSqdiEbJ57x.jpg"
+    },
+    {
+      "title": "Street Flow 3",
+      "type": "movie",
       "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt39379814",
+      "imdb_link": "https://www.imdb.com/title/tt37800570",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/o5nJGAUzHk3Cy8WOTTFPOTaQ4ZZ.jpg"
+    },
+    {
+      "title": "Blue Therapy",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt35836615",
       "critic_score": null,
       "user_rating": null,
       "poster_url": null
     },
     {
+      "title": "The Hunt",
+      "type": "tv_miniseries",
+      "services": "Apple TV+",
+      "imdb_link": "https://www.imdb.com/title/tt33086602",
+      "critic_score": null,
+      "user_rating": 5.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ipf1giXcXX50ylcmDBtDcXHMTaa.jpg"
+    },
+    {
       "title": "Outlander",
       "type": "tv_series",
-      "services": "Disney+, Netflix",
+      "services": "Netflix, Disney+",
       "imdb_link": "https://www.imdb.com/title/tt3006802",
       "critic_score": 83,
       "user_rating": 8.2,
@@ -27,6 +54,15 @@
       "critic_score": 52,
       "user_rating": 5.8,
       "poster_url": "https://image.tmdb.org/t/p/w342/bU2Q2rCH5VFrJNKSyx6wSmQZFsX.jpg"
+    },
+    {
+      "title": "Girl from Nowhere",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt8824648",
+      "critic_score": null,
+      "user_rating": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/9hDXqzN5l4lBmEtb8IstXr91k8z.jpg"
     }
   ]
 }
