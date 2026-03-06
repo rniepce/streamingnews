@@ -1,41 +1,14 @@
 {
-  "date": "2026-03-05",
+  "date": "2026-03-06",
   "items": [
     {
-      "title": "Young Sherlock",
-      "type": "tv_series",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt8599532",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/e3rggcNZeCvtJf4dNSqdiEbJ57x.jpg"
-    },
-    {
-      "title": "Street Flow 3",
-      "type": "movie",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt37800570",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/o5nJGAUzHk3Cy8WOTTFPOTaQ4ZZ.jpg"
-    },
-    {
-      "title": "Blue Therapy",
+      "title": "Vladimir",
       "type": "tv_series",
       "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt35836615",
+      "imdb_link": "https://www.imdb.com/title/tt35997699",
       "critic_score": null,
       "user_rating": null,
-      "poster_url": null
-    },
-    {
-      "title": "The Hunt",
-      "type": "tv_miniseries",
-      "services": "Apple TV+",
-      "imdb_link": "https://www.imdb.com/title/tt33086602",
-      "critic_score": null,
-      "user_rating": 5.5,
-      "poster_url": "https://image.tmdb.org/t/p/w342/ipf1giXcXX50ylcmDBtDcXHMTaa.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/rPp8yBVXsc6Cozw53MB31arayoK.jpg"
     },
     {
       "title": "Outlander",
@@ -63,6 +36,24 @@
       "critic_score": null,
       "user_rating": 7.8,
       "poster_url": "https://image.tmdb.org/t/p/w342/9hDXqzN5l4lBmEtb8IstXr91k8z.jpg"
+    },
+    {
+      "title": "Beastars",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt11043632",
+      "critic_score": 89,
+      "user_rating": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/sh9iNWkleOjEHRHj8WPHhmMi8HL.jpg"
+    },
+    {
+      "title": "One Piece",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt11737520",
+      "critic_score": 77,
+      "user_rating": 8.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg"
     }
   ]
 }
