@@ -1,15 +1,6 @@
 {
-  "date": "2026-03-06",
+  "date": "2026-03-07",
   "items": [
-    {
-      "title": "Vladimir",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt35997699",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/rPp8yBVXsc6Cozw53MB31arayoK.jpg"
-    },
     {
       "title": "Outlander",
       "type": "tv_series",
@@ -29,6 +20,15 @@
       "poster_url": "https://image.tmdb.org/t/p/w342/bU2Q2rCH5VFrJNKSyx6wSmQZFsX.jpg"
     },
     {
+      "title": "El Asesino de TikTok",
+      "type": "tv_miniseries",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt39509488",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/giINp6zBiLd78VVlSHM1AUaDKf3.jpg"
+    },
+    {
       "title": "Girl from Nowhere",
       "type": "tv_series",
       "services": "Netflix",
@@ -45,6 +45,15 @@
       "critic_score": 89,
       "user_rating": 7.8,
       "poster_url": "https://image.tmdb.org/t/p/w342/sh9iNWkleOjEHRHj8WPHhmMi8HL.jpg"
+    },
+    {
+      "title": "Anderson Spider Silva",
+      "type": "tv_miniseries",
+      "services": "Mubi",
+      "imdb_link": "https://www.imdb.com/title/tt14926832",
+      "critic_score": null,
+      "user_rating": 6.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/aBwB6n8hQ5lLcc3WpCSvXqz9Pv8.jpg"
     },
     {
       "title": "One Piece",
