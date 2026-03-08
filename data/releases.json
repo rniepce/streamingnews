@@ -1,33 +1,6 @@
 {
-  "date": "2026-03-07",
+  "date": "2026-03-08",
   "items": [
-    {
-      "title": "Outlander",
-      "type": "tv_series",
-      "services": "Netflix, Disney+",
-      "imdb_link": "https://www.imdb.com/title/tt3006802",
-      "critic_score": 83,
-      "user_rating": 8.2,
-      "poster_url": "https://image.tmdb.org/t/p/w342/hXWGDEwPiEWqFesF5gZGImtPIWh.jpg"
-    },
-    {
-      "title": "War Machine",
-      "type": "movie",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt4758646",
-      "critic_score": 52,
-      "user_rating": 5.8,
-      "poster_url": "https://image.tmdb.org/t/p/w342/bU2Q2rCH5VFrJNKSyx6wSmQZFsX.jpg"
-    },
-    {
-      "title": "El Asesino de TikTok",
-      "type": "tv_miniseries",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt39509488",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/giINp6zBiLd78VVlSHM1AUaDKf3.jpg"
-    },
     {
       "title": "Girl from Nowhere",
       "type": "tv_series",
@@ -63,6 +36,51 @@
       "critic_score": 77,
       "user_rating": 8.2,
       "poster_url": "https://image.tmdb.org/t/p/w342/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg"
+    },
+    {
+      "title": "The Secret Lives of Mormon Wives",
+      "type": "tv_series",
+      "services": "Disney+",
+      "imdb_link": "https://www.imdb.com/title/tt31091039",
+      "critic_score": 56,
+      "user_rating": 5.7,
+      "poster_url": "https://image.tmdb.org/t/p/w342/aPGMZcStogqNo2tvU7PmNvpMK7y.jpg"
+    },
+    {
+      "title": "Made in Korea",
+      "type": "tv_series",
+      "services": "Disney+",
+      "imdb_link": "https://www.imdb.com/title/tt33298903",
+      "critic_score": null,
+      "user_rating": 7.1,
+      "poster_url": "https://image.tmdb.org/t/p/w342/cyBg9FJ2AmTWEGktA43gMo4t0Vj.jpg"
+    },
+    {
+      "title": "Virgin River",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt9077530",
+      "critic_score": 77,
+      "user_rating": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/oHEqfmSWR4Ex4V4AJyUn8HGHHnt.jpg"
+    },
+    {
+      "title": "Love Is Blind: Sweden",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt23735438",
+      "critic_score": null,
+      "user_rating": 6.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/dwnREOnAaleZQd02zSLCWLGiV8P.jpg"
+    },
+    {
+      "title": "Fatal Seduction",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt27951663",
+      "critic_score": 57,
+      "user_rating": 5.2,
+      "poster_url": "https://image.tmdb.org/t/p/w342/qV9DjDIMUu7ieCQTQkEe9R83Ooa.jpg"
     }
   ]
 }
