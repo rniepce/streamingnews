@@ -1,33 +1,6 @@
 {
-  "date": "2026-03-08",
+  "date": "2026-03-09",
   "items": [
-    {
-      "title": "Girl from Nowhere",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt8824648",
-      "critic_score": null,
-      "user_rating": 7.8,
-      "poster_url": "https://image.tmdb.org/t/p/w342/9hDXqzN5l4lBmEtb8IstXr91k8z.jpg"
-    },
-    {
-      "title": "Beastars",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt11043632",
-      "critic_score": 89,
-      "user_rating": 7.8,
-      "poster_url": "https://image.tmdb.org/t/p/w342/sh9iNWkleOjEHRHj8WPHhmMi8HL.jpg"
-    },
-    {
-      "title": "Anderson Spider Silva",
-      "type": "tv_miniseries",
-      "services": "Mubi",
-      "imdb_link": "https://www.imdb.com/title/tt14926832",
-      "critic_score": null,
-      "user_rating": 6.5,
-      "poster_url": "https://image.tmdb.org/t/p/w342/aBwB6n8hQ5lLcc3WpCSvXqz9Pv8.jpg"
-    },
     {
       "title": "One Piece",
       "type": "tv_series",
