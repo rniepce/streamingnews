@@ -1,6 +1,15 @@
 {
-  "date": "2026-03-09",
+  "date": "2026-03-10",
   "items": [
+    {
+      "title": "Melania",
+      "type": "movie",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt35291758",
+      "critic_score": 10,
+      "user_rating": 1.6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ba6Silct0Y4pyvrSv0Tj0Urmx9f.jpg"
+    },
     {
       "title": "One Piece",
       "type": "tv_series",
