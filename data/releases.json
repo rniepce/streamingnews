@@ -1,15 +1,6 @@
 {
-  "date": "2026-03-10",
+  "date": "2026-03-11",
   "items": [
-    {
-      "title": "Melania",
-      "type": "movie",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt35291758",
-      "critic_score": 10,
-      "user_rating": 1.6,
-      "poster_url": "https://image.tmdb.org/t/p/w342/ba6Silct0Y4pyvrSv0Tj0Urmx9f.jpg"
-    },
     {
       "title": "One Piece",
       "type": "tv_series",
@@ -18,6 +9,24 @@
       "critic_score": 77,
       "user_rating": 8.2,
       "poster_url": "https://image.tmdb.org/t/p/w342/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg"
+    },
+    {
+      "title": "Scarpetta",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt14786934",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/d7eMVAH8KjVLHEnvTpnCrOCbHQT.jpg"
+    },
+    {
+      "title": "Age of Attraction",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt37610452",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": null
     },
     {
       "title": "The Secret Lives of Mormon Wives",
