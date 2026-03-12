@@ -1,21 +1,12 @@
 {
-  "date": "2026-03-11",
+  "date": "2026-03-12",
   "items": [
-    {
-      "title": "One Piece",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt11737520",
-      "critic_score": 77,
-      "user_rating": 8.2,
-      "poster_url": "https://image.tmdb.org/t/p/w342/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg"
-    },
     {
       "title": "Scarpetta",
       "type": "tv_series",
       "services": "Prime Video",
       "imdb_link": "https://www.imdb.com/title/tt14786934",
-      "critic_score": null,
+      "critic_score": 72,
       "user_rating": null,
       "poster_url": "https://image.tmdb.org/t/p/w342/d7eMVAH8KjVLHEnvTpnCrOCbHQT.jpg"
     },
@@ -27,6 +18,15 @@
       "critic_score": null,
       "user_rating": null,
       "poster_url": null
+    },
+    {
+      "title": "Louis Theroux: Inside the Manosphere",
+      "type": "movie",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt39792948",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg"
     },
     {
       "title": "The Secret Lives of Mormon Wives",
