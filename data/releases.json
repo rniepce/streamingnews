@@ -1,42 +1,6 @@
 {
-  "date": "2026-03-13",
+  "date": "2026-03-14",
   "items": [
-    {
-      "title": "The Secret Lives of Mormon Wives",
-      "type": "tv_series",
-      "services": "Disney+",
-      "imdb_link": "https://www.imdb.com/title/tt31091039",
-      "critic_score": 56,
-      "user_rating": 5.7,
-      "poster_url": "https://image.tmdb.org/t/p/w342/aPGMZcStogqNo2tvU7PmNvpMK7y.jpg"
-    },
-    {
-      "title": "Made in Korea",
-      "type": "tv_series",
-      "services": "Disney+",
-      "imdb_link": "https://www.imdb.com/title/tt33298903",
-      "critic_score": null,
-      "user_rating": 7.1,
-      "poster_url": "https://image.tmdb.org/t/p/w342/cyBg9FJ2AmTWEGktA43gMo4t0Vj.jpg"
-    },
-    {
-      "title": "Virgin River",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt9077530",
-      "critic_score": 77,
-      "user_rating": 7.5,
-      "poster_url": "https://image.tmdb.org/t/p/w342/oHEqfmSWR4Ex4V4AJyUn8HGHHnt.jpg"
-    },
-    {
-      "title": "Love Is Blind: Sweden",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt23735438",
-      "critic_score": null,
-      "user_rating": 6.3,
-      "poster_url": "https://image.tmdb.org/t/p/w342/dwnREOnAaleZQd02zSLCWLGiV8P.jpg"
-    },
     {
       "title": "Fatal Seduction",
       "type": "tv_series",
@@ -63,6 +27,33 @@
       "critic_score": null,
       "user_rating": 8,
       "poster_url": "https://image.tmdb.org/t/p/w342/nd0zhdvXyIdAqlc1ulYAMeWiEvO.jpg"
+    },
+    {
+      "title": "Beauty in Black",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt31260386",
+      "critic_score": null,
+      "user_rating": 6,
+      "poster_url": "https://image.tmdb.org/t/p/w342/i98Jl46WBpK7ymttNOakowtNuFF.jpg"
+    },
+    {
+      "title": "JoJo's Bizarre Adventure",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt2359704",
+      "critic_score": null,
+      "user_rating": 8.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg"
+    },
+    {
+      "title": "Unicorn Academy",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt27423738",
+      "critic_score": null,
+      "user_rating": 6.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/5aex9xH2Tq9G9m9WyhPJiyVOJol.jpg"
     }
   ]
 }
