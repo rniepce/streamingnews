@@ -1,15 +1,6 @@
 {
-  "date": "2026-03-14",
+  "date": "2026-03-15",
   "items": [
-    {
-      "title": "Fatal Seduction",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt27951663",
-      "critic_score": 57,
-      "user_rating": 5.2,
-      "poster_url": "https://image.tmdb.org/t/p/w342/qV9DjDIMUu7ieCQTQkEe9R83Ooa.jpg"
-    },
     {
       "title": "Furies",
       "type": "tv_series",
@@ -54,6 +45,24 @@
       "critic_score": null,
       "user_rating": 6.8,
       "poster_url": "https://image.tmdb.org/t/p/w342/5aex9xH2Tq9G9m9WyhPJiyVOJol.jpg"
+    },
+    {
+      "title": "Last One Laughing UK",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt35050741",
+      "critic_score": null,
+      "user_rating": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eMh1V4XiAE29F7lRnwHJAE0tLEH.jpg"
+    },
+    {
+      "title": "Deadloch",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt14671678",
+      "critic_score": 95,
+      "user_rating": 7.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hwcgXey9qgpoz6GIcLRG8Eshwpk.jpg"
     }
   ]
 }
