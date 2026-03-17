@@ -1,6 +1,15 @@
 {
-  "date": "2026-03-16",
+  "date": "2026-03-17",
   "items": [
+    {
+      "title": "The Plastic Detox",
+      "type": "movie",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt39345599",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": null
+    },
     {
       "title": "Furies",
       "type": "tv_series",
