@@ -1,15 +1,6 @@
 {
-  "date": "2026-03-18",
+  "date": "2026-03-19",
   "items": [
-    {
-      "title": "Mark Normand: None Too Pleased",
-      "type": "tv_special",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt40145204",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/l8V9Svbuim4QMBK905C7sl8YdYs.jpg"
-    },
     {
       "title": "Imperfect Women",
       "type": "tv_series",
@@ -25,7 +16,7 @@
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt11384300",
       "critic_score": null,
-      "user_rating": 6.5,
+      "user_rating": 6.2,
       "poster_url": "https://image.tmdb.org/t/p/w342/8sHKc6kNKjdhvHBP2c5zoSS16v5.jpg"
     },
     {
@@ -63,6 +54,24 @@
       "critic_score": null,
       "user_rating": 6.8,
       "poster_url": "https://image.tmdb.org/t/p/w342/5aex9xH2Tq9G9m9WyhPJiyVOJol.jpg"
+    },
+    {
+      "title": "Last One Laughing UK",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt35050741",
+      "critic_score": null,
+      "user_rating": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/eMh1V4XiAE29F7lRnwHJAE0tLEH.jpg"
+    },
+    {
+      "title": "Deadloch",
+      "type": "tv_series",
+      "services": "Prime Video",
+      "imdb_link": "https://www.imdb.com/title/tt14671678",
+      "critic_score": 95,
+      "user_rating": 7.4,
+      "poster_url": "https://image.tmdb.org/t/p/w342/hwcgXey9qgpoz6GIcLRG8Eshwpk.jpg"
     }
   ]
 }
