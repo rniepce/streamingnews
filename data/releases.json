@@ -1,33 +1,6 @@
 {
-  "date": "2026-03-19",
+  "date": "2026-03-20",
   "items": [
-    {
-      "title": "Imperfect Women",
-      "type": "tv_series",
-      "services": "Apple TV+",
-      "imdb_link": "https://www.imdb.com/title/tt31937954",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/m3EqbXNCdWcG8GpXmHILag6HBm8.jpg"
-    },
-    {
-      "title": "Furies",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt11384300",
-      "critic_score": null,
-      "user_rating": 6.2,
-      "poster_url": "https://image.tmdb.org/t/p/w342/8sHKc6kNKjdhvHBP2c5zoSS16v5.jpg"
-    },
-    {
-      "title": "Eva Lasting",
-      "type": "tv_miniseries",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt26346647",
-      "critic_score": null,
-      "user_rating": 8,
-      "poster_url": "https://image.tmdb.org/t/p/w342/nd0zhdvXyIdAqlc1ulYAMeWiEvO.jpg"
-    },
     {
       "title": "Beauty in Black",
       "type": "tv_series",
