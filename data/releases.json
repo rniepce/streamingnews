@@ -1,41 +1,14 @@
 {
-  "date": "2026-03-21",
+  "date": "2026-03-22",
   "items": [
     {
-      "title": "Deadloch",
-      "type": "tv_series",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt14671678",
-      "critic_score": 95,
-      "user_rating": 7.4,
-      "poster_url": "https://image.tmdb.org/t/p/w342/7rI7T4AfSzOx0Rqw73AusyIpeXf.jpg"
-    },
-    {
-      "title": "Peaky Blinders: The Immortal Man",
+      "title": "BTS THE COMEBACK LIVE | ARIRANG",
       "type": "movie",
       "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt15574124",
-      "critic_score": 77,
-      "user_rating": 7.9,
-      "poster_url": "https://image.tmdb.org/t/p/w342/gRMalasZEzsZi4w2VFuYusfSfqf.jpg"
-    },
-    {
-      "title": "The Rise of the Red Hot Chili Peppers: Our Brother, Hillel",
-      "type": "movie",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt36971084",
+      "imdb_link": "https://www.imdb.com/title/tt39578533",
       "critic_score": null,
       "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg"
-    },
-    {
-      "title": "Agent Zeta",
-      "type": "movie",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt32880540",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/5KpkV8xDBtUrQAOWrcsBuOsBag3.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/tztql23n2UCoM76KyCSKoZxVUL1.jpg"
     },
     {
       "title": "Daredevil: Born Again",
@@ -45,6 +18,15 @@
       "critic_score": 78,
       "user_rating": 7.9,
       "poster_url": "https://image.tmdb.org/t/p/w342/9lLuhV703HGCbnz6FxnqCwIwzAZ.jpg"
+    },
+    {
+      "title": "Heartbreak High",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt15054962",
+      "critic_score": 73,
+      "user_rating": 7.8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/1KTYMK7N2vRe8PowCyb799DbDRR.jpg"
     }
   ]
 }
