@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-23",
+  "date": "2026-03-24",
   "items": [
     {
       "title": "Daredevil: Born Again",
@@ -8,7 +8,7 @@
       "imdb_link": "https://www.imdb.com/title/tt18923754",
       "critic_score": 78,
       "user_rating": 7.9,
-      "poster_url": "https://image.tmdb.org/t/p/w342/9lLuhV703HGCbnz6FxnqCwIwzAZ.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg"
     },
     {
       "title": "Heartbreak High",
@@ -27,6 +27,24 @@
       "critic_score": 72,
       "user_rating": 7.7,
       "poster_url": "https://image.tmdb.org/t/p/w342/9pxRMetW8ZwnepLnIf37YWuNvgk.jpg"
+    },
+    {
+      "title": "For All Mankind",
+      "type": "tv_series",
+      "services": "Apple TV+",
+      "imdb_link": "https://www.imdb.com/title/tt7772588",
+      "critic_score": 84,
+      "user_rating": 8,
+      "poster_url": "https://image.tmdb.org/t/p/w342/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg"
+    },
+    {
+      "title": "The Parisian Agency: Exclusive Properties",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt14746934",
+      "critic_score": null,
+      "user_rating": 7.5,
+      "poster_url": "https://image.tmdb.org/t/p/w342/deKE6fgJ3qSq6maFcSqeI9Pw1AH.jpg"
     }
   ]
 }
