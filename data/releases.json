@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-24",
+  "date": "2026-03-25",
   "items": [
     {
       "title": "Daredevil: Born Again",
@@ -9,6 +9,15 @@
       "critic_score": 78,
       "user_rating": 7.9,
       "poster_url": "https://image.tmdb.org/t/p/w342/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg"
+    },
+    {
+      "title": "Jeff Ross: Take a Banana for the Ride",
+      "type": "movie",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt39901552",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": "https://image.tmdb.org/t/p/w342/LWFJ6K3FF9G04z1Ntq9SigLMjt.jpg"
     },
     {
       "title": "Heartbreak High",
