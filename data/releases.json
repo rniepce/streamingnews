@@ -1,24 +1,6 @@
 {
-  "date": "2026-03-26",
+  "date": "2026-03-27",
   "items": [
-    {
-      "title": "Heartbreak High",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt15054962",
-      "critic_score": 73,
-      "user_rating": 7.8,
-      "poster_url": "https://image.tmdb.org/t/p/w342/1KTYMK7N2vRe8PowCyb799DbDRR.jpg"
-    },
-    {
-      "title": "Pretty Lethal",
-      "type": "movie",
-      "services": "Prime Video",
-      "imdb_link": "https://www.imdb.com/title/tt26678938",
-      "critic_score": null,
-      "user_rating": 6.9,
-      "poster_url": "https://image.tmdb.org/t/p/w342/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg"
-    },
     {
       "title": "Something Very Bad Is Going to Happen",
       "type": "tv_miniseries",
@@ -61,7 +43,7 @@
       "services": "Netflix",
       "imdb_link": "https://www.imdb.com/title/tt14746934",
       "critic_score": null,
-      "user_rating": 7.5,
+      "user_rating": 7.4,
       "poster_url": "https://image.tmdb.org/t/p/w342/deKE6fgJ3qSq6maFcSqeI9Pw1AH.jpg"
     }
   ]
