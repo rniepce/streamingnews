@@ -1,24 +1,6 @@
 {
-  "date": "2026-03-27",
+  "date": "2026-03-28",
   "items": [
-    {
-      "title": "Something Very Bad Is Going to Happen",
-      "type": "tv_miniseries",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt32937780",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/yRJ39dVqEgNwont3KinxCtnVRK5.jpg"
-    },
-    {
-      "title": "Jo Nesbo's Detective Hole",
-      "type": "tv_series",
-      "services": "Netflix",
-      "imdb_link": "https://www.imdb.com/title/tt31810018",
-      "critic_score": null,
-      "user_rating": null,
-      "poster_url": "https://image.tmdb.org/t/p/w342/rBsRNHehYPkd2kS64LSwX6mnPnI.jpg"
-    },
     {
       "title": "House of David",
       "type": "tv_series",
@@ -26,7 +8,7 @@
       "imdb_link": "https://www.imdb.com/title/tt30955673",
       "critic_score": 72,
       "user_rating": 7.7,
-      "poster_url": "https://image.tmdb.org/t/p/w342/9pxRMetW8ZwnepLnIf37YWuNvgk.jpg"
+      "poster_url": "https://image.tmdb.org/t/p/w342/i4eskPIEI5sK0IibHhWqBU9Ts0k.jpg"
     },
     {
       "title": "For All Mankind",
@@ -38,6 +20,15 @@
       "poster_url": "https://image.tmdb.org/t/p/w342/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg"
     },
     {
+      "title": "53 Sundays",
+      "type": "movie",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt32155665",
+      "critic_score": null,
+      "user_rating": null,
+      "poster_url": null
+    },
+    {
       "title": "The Parisian Agency: Exclusive Properties",
       "type": "tv_series",
       "services": "Netflix",
@@ -45,6 +36,15 @@
       "critic_score": null,
       "user_rating": 7.4,
       "poster_url": "https://image.tmdb.org/t/p/w342/deKE6fgJ3qSq6maFcSqeI9Pw1AH.jpg"
+    },
+    {
+      "title": "Love on the Spectrum U.S.",
+      "type": "tv_series",
+      "services": "Netflix",
+      "imdb_link": "https://www.imdb.com/title/tt19037550",
+      "critic_score": null,
+      "user_rating": 8.3,
+      "poster_url": "https://image.tmdb.org/t/p/w342/7QnZq8yGLCHk4gFSsPRjAsAa4m1.jpg"
     }
   ]
 }
